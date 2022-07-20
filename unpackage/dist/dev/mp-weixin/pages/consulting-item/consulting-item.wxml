@@ -1,0 +1,1 @@
+<view class="cons-item data-v-7aea0c1c"><view class="title data-v-7aea0c1c">{{a}}</view><view class="text data-v-7aea0c1c"><text class="data data-v-7aea0c1c">发表时间: {{b}}</text><text class="browse data-v-7aea0c1c">浏览{{c}}次</text></view><view class="cont data-v-7aea0c1c"><rich-text class="data-v-7aea0c1c" nodes="{{d}}"></rich-text></view></view>

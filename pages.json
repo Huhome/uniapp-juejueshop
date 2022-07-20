@@ -1,0 +1,164 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "juejue商城"
+			}
+		}
+	    ,{
+            "path" : "pages/consulting/consulting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "咨询列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "会员中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "社区图片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/videos/videos",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "视频列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/consulting-item/consulting-item",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "咨询详情",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/goods-item/goods-item",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#C41E00",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"color": "#CDCDCD",
+		"selectedColor": "#C41E00",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "主页",
+				"iconPath": "./static/tabBariamges/home.png",
+				"selectedIconPath": "./static/tabBariamges/home-active.png"
+			},
+			{
+				"pagePath": "pages/consulting/consulting",
+				"text": "咨询",
+				"iconPath": "./static/tabBariamges/news.png",
+				"selectedIconPath": "./static/tabBariamges/news-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "./static/tabBariamges/cart.png",
+				"selectedIconPath": "./static/tabBariamges/cart-active.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "会员",
+				"iconPath": "./static/tabBariamges/member.png",
+				"selectedIconPath": "./static/tabBariamges/member-active.png"
+			}
+		]
+	},
+	"condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "主页",
+				"path": "/pages/index/index"
+			},
+			{
+				"name": "超市",
+				"path": "/pages/goods/goods"
+			},
+			{
+				"name": "联系我们",
+				"path": "/pages/contact/contact"
+			},
+			{
+				"name": "社区图片",
+				"path": "/pages/pics/pics"
+			},
+			{
+				"name": "学习视频",
+				"path": "/pages/videos/videos"
+			},
+			{
+				"name": "咨询",
+				"path": "/pages/consulting/consulting"
+			},
+			{
+				"name": "购物车",
+				"path": "/pages/cart/cart"
+			},
+			{
+				"name": "会员",
+				"path": "/pages/user/user"
+			}
+		]
+	}
+}

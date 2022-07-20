@@ -1,0 +1,1 @@
+import{o as a,c as e,w as r,d as s,i as d}from"./index.f7a5bbda.js";import{_ as o}from"./plugin-vue_export-helper.21dcd24c.js";var t=o({data:()=>({}),methods:{}},[["render",function(o,t,n,i,u,f){const l=d;return a(),e(l,null,{default:r((()=>[s(" videos ")])),_:1})}]]);export{t as default};

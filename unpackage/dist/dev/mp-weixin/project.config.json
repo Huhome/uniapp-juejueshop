@@ -1,0 +1,72 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": [],
+		"include": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.25.0",
+	"appid": "wx858bb73dc820e30b",
+	"projectname": "uni-Shopping Mall",
+	"condition": {
+		"miniprogram": {
+			"list": [
+				{
+					"name": "主页",
+					"pathName": "/pages/index/index",
+					"query": ""
+				},
+				{
+					"name": "超市",
+					"pathName": "/pages/goods/goods",
+					"query": ""
+				},
+				{
+					"name": "联系我们",
+					"pathName": "/pages/contact/contact",
+					"query": ""
+				},
+				{
+					"name": "社区图片",
+					"pathName": "/pages/pics/pics",
+					"query": ""
+				},
+				{
+					"name": "学习视频",
+					"pathName": "/pages/videos/videos",
+					"query": ""
+				},
+				{
+					"name": "咨询",
+					"pathName": "/pages/consulting/consulting",
+					"query": ""
+				},
+				{
+					"name": "购物车",
+					"pathName": "/pages/cart/cart",
+					"query": ""
+				},
+				{
+					"name": "会员",
+					"pathName": "/pages/user/user",
+					"query": ""
+				}
+			]
+		}
+	},
+	"editorSetting": {
+		"tabIndent": "tab",
+		"tabSize": 4
+	}
+}

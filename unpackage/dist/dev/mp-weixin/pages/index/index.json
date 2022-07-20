@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "juejue商城",
+  "usingComponents": {
+    "goods-list": "../../components/goodsList"
+  }
+}
